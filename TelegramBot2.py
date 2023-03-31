@@ -7,11 +7,11 @@ import datetime
 
 from telegram.bot import Bot
 
-bot = telegram.Bot(token="5953779084:AAH7X7KJ-ZNQ8c4oeEia2JfLSGLzdiJxKKI")
+bot = telegram.Bot(token="Your_telegram_token")
 
 from telegram.ext import Updater , CommandHandler , MessageHandler
 
-updater = Updater(token="5953779084:AAH7X7KJ-ZNQ8c4oeEia2JfLSGLzdiJxKKI" , use_context = True)
+updater = Updater(token="Your_telegram_token" , use_context = True)
 
 dispatcher = updater.dispatcher
 
