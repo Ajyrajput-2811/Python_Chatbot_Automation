@@ -49,7 +49,7 @@ def help(update,context):
     )   
 
 def linkedin(update,context):
-    context.bot.send_message(chat_id=update.effective_chat.id , text='Here your linkedin_url ==> www.linkedin.com/in/Ajay-Rajput2811') 
+    context.bot.send_message(chat_id=update.effective_chat.id , text='Here your linkedin_url ==> www.linkedin.com') 
 
 def getQuote(update,context):
     response =requests.get('https://dummyjson.com/quotes/random')
