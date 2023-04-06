@@ -3,8 +3,10 @@
 This is simple Telegram Bot which is using python language.
 
  ## Install Requirements
+ Install the necessary module.
+ 
  ```
-  $ pip instal -r requirements.txt
+  pip install -r requirements.txt
   
   ```
  
